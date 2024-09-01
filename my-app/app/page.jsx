@@ -1,10 +1,11 @@
-import Link from "next/link";
-
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 const Homepage = () => {
   return (
-    <div>
-      <h1>Welcome to the Homepage</h1>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
   );
 };
 export default Homepage;
