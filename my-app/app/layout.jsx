@@ -1,4 +1,6 @@
 import "@/assets/styles/globals.css";
+import Navbar from "@/components/Navbar";
+
 export const metadata = {
   title: "My App",
   description: "My awesome app",
@@ -8,6 +10,7 @@ const MainLayout = ({ children }) => {
   return (
     <html>
       <body>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
