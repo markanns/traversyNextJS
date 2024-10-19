@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa";
 
 const PropertyDetails = ({ property }) => {
+  console.log(property);
+  
   return (
     <>
       <main>
